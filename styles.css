@@ -4,7 +4,6 @@ body{
     height: 500ch;
 }
 
-
 h1{
     text-align: center;
     color: black;
@@ -18,20 +17,11 @@ a{
     display: block;
 }
 
-
 h2, h3, h4{
-    margin-top: 15ch;
-    font-size: 24px;
+    text-align: center;
+    margin-top: 10ch;
+    font-size: 40px;
 }
-
-h3{
-    margin-top: 50ch;
-}
-
-h4{
-    margin-top: 100ch;
-}
-
 
 #navbar{
     background-color: black;
@@ -48,9 +38,19 @@ h4{
     padding: 10px;
   }
 
-  #navbar a:hover {
+#navbar a:hover {
     background-color: white;
     color: black;
-  }
+}
+
+p{
+    text-align: center;
+}
+
+img{
+    text-align: center;
+    width: 600px;
+    height :800px;
+}
 
  
