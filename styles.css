@@ -1,6 +1,14 @@
 body{
     background-color: black;
+    font-family: Arial;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    justify-content: center;
 }
+
 
 h1{
     font-size: large;
