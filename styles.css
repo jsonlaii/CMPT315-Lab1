@@ -1,19 +1,56 @@
 body{
-    background-color: black;
-    font-family: Arial;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
-    justify-content: center;
+    background-color: rgb(222, 216, 216);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 500ch;
 }
 
 
 h1{
-    font-size: large;
+    text-align: center;
+    color: black;
+    font-size: 8ch;
+}
+
+a{
     color: white;
+    font-size: 2ch;
+    text-align: center;
+    display: block;
 }
 
 
+h2, h3, h4{
+    margin-top: 15ch;
+    font-size: 24px;
+}
 
+h3{
+    margin-top: 50ch;
+}
+
+h4{
+    margin-top: 100ch;
+}
+
+
+#navbar{
+    background-color: black;
+    position:sticky;
+    width: 100%; 
+    transition: top 0.3s;
+    
+}
+
+#navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #navbar a:hover {
+    background-color: white;
+    color: black;
+  }
+
+ 
