@@ -53,13 +53,21 @@ p{
 
 img{
     padding-top: 8px;
-    padding-left: 525px;
+    padding-left: auto;
     padding-right: 8px;
     padding-bottom: 8px;
     position: center;
-    width: 600px;
-    height :800px;
+    width: 100%;
+    height: auto;
 }
+
+@media screen and (min-width: 768px) {
+    img {
+        max-width: 80%; /* Adjust the max-width for larger screens as needed */
+        padding-left: 150px;
+    }
+}
+
 a.github_link, a.linkedin_link{
     color:black;
 
