@@ -1,7 +1,7 @@
 body{
     background-color: rgb(222, 216, 216);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height: 500ch;
+    height: 315ch;
 }
 
 html {
@@ -52,9 +52,17 @@ p{
 }
 
 img{
-    text-align: center;
+    padding-top: 8px;
+    padding-left: 525px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    position: center;
     width: 600px;
     height :800px;
+}
+a.github_link, a.linkedin_link{
+    color:black;
+
 }
 
  
